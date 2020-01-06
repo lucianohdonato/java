@@ -1,0 +1,29 @@
+package com.aulaJava.exercicio1;
+
+import java.util.Scanner;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+        int idade, idadeMae, diferencaIdade;
+        
+        Scanner sn = new Scanner(System.in); 
+    	idade = sn.nextLine(); 
+    	idade = sn.nextInt();
+    	
+    	Scanner sn = new Scanner(System.in); 
+    	idadeMae = sn.nextLine(); 
+    	idadeMae = sn.nextInt();
+    	
+    	diferencaIdade = idadeMae - idade;
+    	
+    	System.out.println( "Digite a sua idade:" );
+    	System.out.println( "Digite a idade da sua mãe:" );
+    	System.out.println( "Sua mãe é " + diferencaIdade + " anos mais velha que você!" );
+    }
+}

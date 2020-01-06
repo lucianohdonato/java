@@ -1,0 +1,22 @@
+package com.aulaJava.exercicio3;
+
+import java.util.Scanner;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+    	int qtnMin, qntMax, estoqueMedio;
+         
+        System.out.print( "Digite a quantidade minima:" );
+        Scanner sn = new Scanner(System.in);  
+        qtnMin = sn.nextInt();
+     	
+     	System.out.print( "Digite a quantidade máxima:" );
+     	qntMax = sn.nextInt();
+     	
+     	estoqueMedio = (qtnMin + qntMax)/2;
+
+     	System.out.print( "Estoque médio = " + estoqueMedio);
+    }
+}
